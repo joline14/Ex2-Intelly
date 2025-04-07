@@ -1,0 +1,110 @@
+/* Header */
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  font-family: "Poppins", sans-serif;
+  border-bottom: #e5e5e5 solid 1px;
+}
+
+.header-left {
+  width: 240px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  background-color: #67a9e6;
+  border-radius: 50%;
+  position: absolute;
+  left: 59px;
+  z-index: 0;
+}
+
+.logo {
+  width: 60px;
+  position: relative;
+  font-size: 24px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 625px;
+  height: 32px;
+  padding: 0 10px;
+  background-color: #f8f9fd;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.search-icon {
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.fa-chevron-down {
+  opacity: 50%;
+  color: #1f384c;
+}
+
+.header-right {
+  width: 218px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 32px;
+}
+
+.header-right .fa-hamburger {
+  background-color: #ffe6cc;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fa-hamburger {
+  font-size: 32px;
+  color: #e76f51;
+}
+.user-name {
+  color: #1f384c;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.notification-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b0c3cc;
+}
+
