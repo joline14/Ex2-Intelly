@@ -6,6 +6,14 @@
   padding: 0px 20px;
   font-family: "Poppins", sans-serif;
   border-bottom: #e5e5e5 solid 1px;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+  
 }
 
 .header-left {
@@ -108,3 +116,61 @@
   color: #b0c3cc;
 }
 
+
+.container {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  padding-top: 65px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: rgba(1, 0, 57, 0.04);
+  height: calc(100vh - 64px);
+  padding: 24px 16px;
+  color: #1f2937;
+  border-right: 1px solid #e5e7eb;
+}
+
+.sidebar-title {
+  opacity: 50%;
+  color: #082431;
+  font-size: 11px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #767D87;
+  cursor:pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-item i {
+  margin-right: 12px;
+  font-size: 16px;
+  color: #767D87;
+}
+
+.sidebar-item:hover {
+  background: rgba(80, 65, 120, 0.2);
+  color: #504178;
+font-weight: 600;
+}
+
+.sidebar-item:hover i {
+  color: #504178;
+}
