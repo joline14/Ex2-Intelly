@@ -1,19 +1,16 @@
 /* Header */
 .header {
   height: 64px;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   padding: 0px 20px;
   font-family: "Poppins", sans-serif;
   border-bottom: #e5e5e5 solid 1px;
-  
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    background-color: white;
-  
+  position: fixed;
+  background-color: white;
 }
 
 .header-left {
@@ -103,6 +100,7 @@
   font-size: 32px;
   color: #e76f51;
 }
+
 .user-name {
   color: #1f384c;
   font-weight: 400;
@@ -115,7 +113,6 @@
   align-items: center;
   color: #b0c3cc;
 }
-
 
 .container {
   display: grid;
@@ -154,30 +151,29 @@
   line-height: 24px;
   padding: 10px 12px;
   border-radius: 8px;
-  color: #767D87;
-  cursor:pointer;
+  color: #767d87;
+  cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 .sidebar-item i {
   margin-right: 12px;
   font-size: 16px;
-  color: #767D87;
+  color: #767d87;
 }
 
 .sidebar-item:hover {
   background: rgba(80, 65, 120, 0.2);
   color: #504178;
-font-weight: 600;
-transform: translateX(10px);
+  font-weight: 600;
+  transform: translateX(10px);
 }
 
 .sidebar-item:hover i {
   color: #504178;
 }
 
-
-.main{
+.main {
   width: 1127px;
   margin: auto;
   margin-top: 35px;
@@ -204,9 +200,8 @@ transform: translateX(10px);
   background-color: #ffffff;
   border-radius: 10px;
   padding: 16px 24px;
-  width: calc(25% - 18px); /* 4 cartes par ligne avec 24px de gap */
+  width: calc(25% - 18px);
 }
-
 
 /* Icône */
 .icon-wrapper {
@@ -218,7 +213,6 @@ transform: translateX(10px);
   justify-content: center;
   color: white;
   margin-right: 16px;
-  flex-shrink: 0;
 }
 
 /* Dégradés personnalisés */
@@ -234,25 +228,188 @@ transform: translateX(10px);
   background: linear-gradient(135deg, #ef4444, #f87171);
 }
 
-.stat-text .stat-value {
+.stat-value {
   font-size: 24px;
   font-weight: 600;
-  color:#1F384C;
+  color: #1f384c;
   line-height: 27px;
 }
 
-.stat-text .stat-label {
+.stat-label {
   font-size: 16px;
-  color: #80809C;
+  color: #80809c;
   font-weight: 400;
   margin-top: 4px;
 }
 
 .stat-change {
   font-size: 12px;
-  color: #149D52;
+  color: #149d52;
   margin-left: 6px;
   font-weight: 500;
 }
 
+.statistik-section {
+  height: 520px;
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  box-sizing: border-box;
+}
 
+.statistik-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #d6d6d6;
+}
+
+.statistik-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.title-left {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f384c;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.statistik-date {
+  width: 150px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #504178;
+  border: 1px solid #00000033;
+}
+
+.statistik-date i {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.graph-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 24px 24px 0px;
+  width: max-content;
+}
+
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 400px;
+  font-size: 12px;
+  color: #939393;
+  font-weight: 400;
+}
+
+.statistik-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  height: 400px;
+}
+
+.statistik-bar-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.bar {
+  width: 20px;
+  height: 100%;
+  background-color: #eee9fa;
+  position: relative;
+  border-radius: 0;
+}
+
+.bar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #4b3f72;
+  display: block;
+  border-radius: 0;
+}
+
+.h-90::after {
+  height: 90%;
+}
+
+.h-80::after {
+  height: 80%;
+}
+
+.h-70::after {
+  height: 70%;
+}
+
+.h-65::after {
+  height: 65%;
+}
+
+.h-50::after {
+  height: 50%;
+}
+
+.h-40::after {
+  height: 40%;
+}
+
+.h-30::after {
+  height: 30%;
+}
+
+.statistik-bar-item span {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 400;
+  color: #939393;
+}
+
+.statistik-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-right h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #1f384c;
+}
+
+.statistik-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.statistik-right li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #273240;
+  margin-bottom: 15px;
+}
