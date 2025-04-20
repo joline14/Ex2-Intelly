@@ -465,3 +465,51 @@ thead th:last-child {
 .overview-section tbody tr:nth-child(even) {
   background-color: #f9fafb;
 }
+
+
+
+.navigation-pages {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.prev{
+font-size: 14px;
+color:#86868C;
+margin-right: 15px;
+}
+
+.page {
+  height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 14px;
+  color: #6b7280;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.next{
+  font-size: 14px;
+  color: #010039;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.page:hover {
+  background-color: #4b3f72;
+  color: #fff;
+}
+
+.boite {
+  width: 200px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
