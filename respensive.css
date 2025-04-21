@@ -30,12 +30,12 @@
       width: 80%;
     }
   
-    .stat-cards {
+    .cards {
       flex-direction: column;
       gap: 16px;
     }
   
-    .stat-card {
+    .card-contain {
       width: 100%;
       box-sizing: border-box;
 

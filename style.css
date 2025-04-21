@@ -188,14 +188,14 @@
   letter-spacing: 0.3px;
 }
 
-.stat-cards {
+.cards {
   display: flex;
   justify-content: space-between;
   gap: 34px;
   margin-bottom: 32px;
 }
 
-.stat-card {
+.card-contain {
   display: flex;
   align-items: center;
   background-color: #ffffff;
@@ -229,21 +229,21 @@
   background: linear-gradient(135deg, #ef4444, #f87171);
 }
 
-.stat-value {
+.card-value {
   font-size: 24px;
   font-weight: 600;
   color: #1f384c;
   line-height: 27px;
 }
 
-.stat-label {
+.card-label {
   font-size: 16px;
   color: #80809c;
   font-weight: 400;
   margin-top: 4px;
 }
 
-.stat-change {
+.card-change {
   font-size: 12px;
   color: #149d52;
   margin-left: 6px;
