@@ -66,9 +66,15 @@
   font-size: 12px;
 }
 
+.search-bar input::placeholder {
+  color: #627B87;
+  opacity: 50%;
+}
+
 .search-icon {
   font-size: 12px;
   opacity: 50%;
+  color: #627B87;
 }
 
 .fa-chevron-down {
@@ -292,6 +298,7 @@
   justify-content: center;
   gap: 8px;
   font-size: 14px;
+  font-weight: 600;
   color: #504178;
   border: 1px solid #00000033;
   border-radius: 10px;
@@ -416,6 +423,11 @@
   font-size: 14px;
   color: #273240;
   margin-bottom: 15px;
+}
+
+.total-orders {
+  opacity: 0.7;
+  color: #273240;
 }
 
 .overview-section {
