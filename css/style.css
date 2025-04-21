@@ -1,4 +1,4 @@
-/* Header */
+/* ========== HEADER ========== */
 .header {
   height: 64px;
   top: 0;
@@ -129,7 +129,7 @@
   padding-top: 65px;
 }
 
-/* Sidebar */
+/* ========== SIDEBAR ========== */
 .sidebar {
   background: rgba(1, 0, 57, 0.04);
   padding: 24px 16px;
@@ -195,6 +195,8 @@
   letter-spacing: 0.3px;
 }
 
+/* ========== CARDS ========== */
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -211,7 +213,7 @@
   width: calc(25% - 18px);
 }
 
-/* Icône */
+
 .icon-wrapper {
   width: 48px;
   height: 48px;
@@ -256,6 +258,8 @@
   margin-left: 6px;
   font-weight: 500;
 }
+
+/* ========== STATISTIK SECTION ========== */
 
 .statistik-section {
   height: 520px;
@@ -430,6 +434,8 @@
   color: #273240;
 }
 
+/* ========== OVERVIEW TABLE ========== */
+
 .overview-section {
   background: #ffffff;
   padding: 24px 24px 0px;
@@ -482,6 +488,8 @@ thead th:last-child {
 .overview-section tbody tr:nth-child(even) {
   background-color: #f9fafb;
 }
+
+/* ========== PAGINATION ========== */
 
 .navigation-pages {
   margin-bottom: 24px;
