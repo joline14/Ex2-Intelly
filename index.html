@@ -1,272 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelly</title>
+    <link rel="stylesheet" href="resset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="respensive.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Intelly</title>
-  <link rel="stylesheet" href="resset.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="respensive.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header-left">
-      <span class="circle"></span>
-      <div class="logo">intelly</div>
-    </div>
-
-    <div class="nav-bar">
-      <div class="header-center">
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search-bar" />
-          <i class="fas fa-search search-icon"></i>
-        </div>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <span class="circle"></span>
+        <span class="logo">intelly</span>
       </div>
 
-      <div class="header-right">
-        <div class="menu-wrapper">
-          <i class="fa-solid fa-hamburger"></i>
-          <div class="user-name">Delicious Burger</div>
-          <i class="fa-solid fa-chevron-down"></i>
+      <div class="nav-bar">
+        <div class="header-center">
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." class="search-bar" />
+            <i class="fas fa-search search-icon"></i>
+          </div>
         </div>
-        <div>
-          <i class="fa-solid fa-bell notification-icon"></i>
+
+        <div class="header-right">
+          <div class="menu-wrapper">
+            <i class="fa-solid fa-hamburger"></i>
+            <div class="user-name">Delicious Burger</div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-bell notification-icon"></i>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="container">
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <h2 class="sidebar-title">MENU</h2>
-        <ul class="sidebar-list">
-          <li class="sidebar-item"><i class="fa-solid fa-chart-line"></i> Dashboard</li>
-          <li class="sidebar-item"><i class="fa-solid fa-cart-shopping"></i> Order</li>
-          <li class="sidebar-item"><i class="fa-solid fa-chart-bar"></i> Report</li>
-          <li class="sidebar-item"><i class="fa-solid fa-map-marker-alt"></i> Track</li>
-          <li class="sidebar-item"><i class="fa-solid fa-tools"></i> Maintenance</li>
-        </ul>
-      </div>
-      <div class="sidebar-section">
-        <h2 class="sidebar-title">SYSTEM</h2>
-        <ul class="sidebar-list">
-          <li class="sidebar-item"><i class="fa-solid fa-database"></i> Master Data</li>
-          <li class="sidebar-item"><i class="fa-solid fa-user"></i> User</li>
-          <li class="sidebar-item"><i class="fa-solid fa-users"></i> Role</li>
-        </ul>
-      </div>
-    </aside>
-    <main class="main">
-      <h2 class="page-title">Dashboard</h2>
-      <section class="cards">
-        <div class="card-contain">
-          <div class="icon-wrapper gradient-purple">
-            <i class="fa-solid fa-truck"></i>
-          </div>
-          <div class="card-text">
-            <div class="card-value">2.409 <span class="card-change">↑ 2.1%</span></div>
-            <div class="card-label">Jumlah Pemesan</div>
-          </div>
-        </div>
-
-        <div class="card-contain">
-          <div class="icon-wrapper gradient-green">
-            <i class="fa-solid fa-truck"></i>
-          </div>
-          <div class="card-text">
-            <div class="card-value">68,9%</div>
-            <div class="card-label">Pesanan Selesai</div>
-          </div>
-        </div>
-
-        <div class="card-contain">
-          <div class="icon-wrapper gradient-purple">
-            <i class="fa-solid fa-truck"></i>
-          </div>
-          <div class="card-text">
-            <div class="card-value">68,9%</div>
-            <div class="card-label">KPI Driver</div>
-          </div>
-        </div>
-
-        <div class="card-contain">
-          <div class="icon-wrapper gradient-red">
-            <i class="fa-solid fa-truck"></i>
-          </div>
-          <div class="card-text">
-            <div class="card-value">3.509</div>
-            <div class="card-label">Total Customer</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="statistik-section">
-        <div class="statistik-left">
-          <div class="statistik-header">
-            <h3 class="title-left">Statistik Pemesanan</h3>
-            <div class="statistik-date">
-              <i class="fa-regular fa-calendar"></i>
-              <span>18/12/2021</span>
-            </div>
-          </div>
-          <div class="graph-container">
-            <div class="y-axis">
-              <span>1000</span>
-              <span>900</span>
-              <span>800</span>
-              <span>700</span>
-              <span>600</span>
-              <span>500</span>
-              <span>400</span>
-              <span>300</span>
-              <span>200</span>
-              <span>100</span>
-              <span>0</span>
-            </div>
-
-            <div class="statistik-bars">
-              <div class="statistik-bar-item">
-                <div class="bar h-80"></div><span>Jan</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-50"></div><span>Feb</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-65"></div><span>Mar</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-30"></div><span>Apr</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-50"></div><span>Mei</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-70"></div><span>Jun</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-40"></div><span>Jul</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-90"></div><span>Aug</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-70"></div><span>Sep</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-50"></div><span>Okt</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-80"></div><span>Nov</span>
-              </div>
-              <div class="statistik-bar-item">
-                <div class="bar h-65"></div><span>Des</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="statistik-right">
-          <div class="title-right">
-            <h3>Customer Pemesan Terbanyak</h3>
-          </div>
-          <ul>
-            <li><span>PT Javan Cipta Solusi</span><span>450</span></li>
-            <li><span>CV ABCD</span><span>449</span></li>
-            <li><span>CV OQURY TRESNA ANJANI</span><span>443</span></li>
-            <li><span>PT Javan Solusi</span><span>441</span></li>
-            <li><span>PT Insan Cipta Solusi</span><span>420</span></li>
-            <li><span>PT Mitra Informatika</span><span>412</span></li>
-            <li><span>PT Gamatechno Indonesia</span><span>411</span></li>
-            <li><span>Patra Jasa</span><span>390</span></li>
-            <li><span>Patra Arun Badak</span><span>387</span></li>
-            <li><span>Pertamina Corporate University</span><span>376</span></li>
-            <li><span>Pertamina RU IV</span><span>361</span></li>
-            <li><span>PT Pertamina Kilang Balikpapan</span><span>355</span></li>
+    </header>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h2 class="sidebar-title">MENU</h2>
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <i class="fa-solid fa-chart-line"></i> Dashboard
+            </li>
+            <li class="sidebar-item">
+              <i class="fa-solid fa-cart-shopping"></i> Order
+            </li>
+            <li class="sidebar-item">
+              <i class="fa-solid fa-chart-bar"></i> Report
+            </li>
+            <li class="sidebar-item">
+              <i class="fa-solid fa-map-marker-alt"></i> Track
+            </li>
+            <li class="sidebar-item">
+              <i class="fa-solid fa-tools"></i> Maintenance
+            </li>
           </ul>
         </div>
-      </section>
-      <section class="overview-section">
-        <h3 class="overview-title">Overview Pemesanan</h3>
-      
-        <div class="table-wrapper">
-          <table>
-            <thead>
-              <tr>
-                <th>No</th>
-                <th>Nama Customer</th>
-                <th>Jenis</th>
-                <th>Kuantitas</th>
-                <th>Tanggal Pengiriman</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Brad Simmons</td>
-                <td>Pertamax</td>
-                <td>2000 Liter</td>
-                <td>21 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Jessie Clarson</td>
-                <td>Turbo</td>
-                <td>2000 Liter</td>
-                <td>20 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>John Doe</td>
-                <td>Solar</td>
-                <td>3000 Liter</td>
-                <td>19 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Ana Williams</td>
-                <td>Pertamax</td>
-                <td>1500 Liter</td>
-                <td>18 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Michael Chan</td>
-                <td>Turbo</td>
-                <td>2500 Liter</td>
-                <td>17 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Sophia Rizky</td>
-                <td>Solar</td>
-                <td>2000 Liter</td>
-                <td>16 Desember 2021</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Fahmi Maulana</td>
-                <td>Pertamax</td>
-                <td>2200 Liter</td>
-                <td>15 Desember 2021</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="sidebar-section">
+          <h2 class="sidebar-title">SYSTEM</h2>
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <i class="fa-solid fa-database"></i> Master Data
+            </li>
+            <li class="sidebar-item"><i class="fa-solid fa-user"></i> User</li>
+            <li class="sidebar-item"><i class="fa-solid fa-users"></i> Role</li>
+          </ul>
         </div>
-      </section>
-      <div class="navigation-pages">
-        <span class="prev">Prev</span>
-        <span class="page">1</span>
-        <span class="page">2</span>
-        <span class="page">3</span>
-        <span class="page">4</span>
-        <span class="page">5</span>
-        <span class="next">Next</span>
-      </div>
-    </main>
-  </div>
-</body>
+      </aside>
+      <main class="main">
+        <h2 class="page-title">Dashboard</h2>
+        <section class="cards">
+          <div class="card-contain">
+            <div class="icon-wrapper gradient-purple">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-value">
+                2.409 <span class="card-change">↑ 2.1%</span>
+              </div>
+              <div class="card-label">Jumlah Pemesan</div>
+            </div>
+          </div>
 
+          <div class="card-contain">
+            <div class="icon-wrapper gradient-green">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-value">68,9%</div>
+              <div class="card-label">Pesanan Selesai</div>
+            </div>
+          </div>
+
+          <div class="card-contain">
+            <div class="icon-wrapper gradient-purple">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-value">68,9%</div>
+              <div class="card-label">KPI Driver</div>
+            </div>
+          </div>
+
+          <div class="card-contain">
+            <div class="icon-wrapper gradient-red">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="card-text">
+              <div class="card-value">3.509</div>
+              <div class="card-label">Total Customer</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="statistik-section">
+          <div class="statistik-left">
+            <div class="statistik-header">
+              <h3 class="title-left">Statistik Pemesanan</h3>
+              <div class="statistik-date">
+                <i class="fa-regular fa-calendar"></i>
+                <span>18/12/2021</span>
+              </div>
+            </div>
+            <div class="graph-container">
+              <div class="y-axis">
+                <span>1000</span>
+                <span>900</span>
+                <span>800</span>
+                <span>700</span>
+                <span>600</span>
+                <span>500</span>
+                <span>400</span>
+                <span>300</span>
+                <span>200</span>
+                <span>100</span>
+                <span>0</span>
+              </div>
+
+              <div class="statistik-bars">
+                <div class="statistik-bar-item">
+                  <div class="bar h-80"></div>
+                  <span>Jan</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-50"></div>
+                  <span>Feb</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-65"></div>
+                  <span>Mar</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-30"></div>
+                  <span>Apr</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-50"></div>
+                  <span>Mei</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-70"></div>
+                  <span>Jun</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-40"></div>
+                  <span>Jul</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-90"></div>
+                  <span>Aug</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-70"></div>
+                  <span>Sep</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-50"></div>
+                  <span>Okt</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-80"></div>
+                  <span>Nov</span>
+                </div>
+                <div class="statistik-bar-item">
+                  <div class="bar h-65"></div>
+                  <span>Des</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="statistik-right">
+            <div class="title-right">
+              <h3>Customer Pemesan Terbanyak</h3>
+            </div>
+            <ul>
+              <li><span>PT Javan Cipta Solusi</span><span>450</span></li>
+              <li><span>CV ABCD</span><span>449</span></li>
+              <li><span>CV OQURY TRESNA ANJANI</span><span>443</span></li>
+              <li><span>PT Javan Solusi</span><span>441</span></li>
+              <li><span>PT Insan Cipta Solusi</span><span>420</span></li>
+              <li><span>PT Mitra Informatika</span><span>412</span></li>
+              <li><span>PT Gamatechno Indonesia</span><span>411</span></li>
+              <li><span>Patra Jasa</span><span>390</span></li>
+              <li><span>Patra Arun Badak</span><span>387</span></li>
+              <li><span>Pertamina Corporate University</span><span>376</span></li>
+              <li><span>Pertamina RU IV</span><span>361</span></li>
+              <li><span>PT Pertamina Kilang Balikpapan</span><span>355</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="overview-section">
+          <h3 class="overview-title">Overview Pemesanan</h3>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Nama Customer</th>
+                  <th>Jenis</th>
+                  <th>Kuantitas</th>
+                  <th>Tanggal Pengiriman</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Brad Simmons</td>
+                  <td>Pertamax</td>
+                  <td>2000 Liter</td>
+                  <td>21 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jessie Clarson</td>
+                  <td>Turbo</td>
+                  <td>2000 Liter</td>
+                  <td>20 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>John Doe</td>
+                  <td>Solar</td>
+                  <td>3000 Liter</td>
+                  <td>19 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Ana Williams</td>
+                  <td>Pertamax</td>
+                  <td>1500 Liter</td>
+                  <td>18 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Michael Chan</td>
+                  <td>Turbo</td>
+                  <td>2500 Liter</td>
+                  <td>17 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Sophia Rizky</td>
+                  <td>Solar</td>
+                  <td>2000 Liter</td>
+                  <td>16 Desember 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Fahmi Maulana</td>
+                  <td>Pertamax</td>
+                  <td>2200 Liter</td>
+                  <td>15 Desember 2021</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <div class="navigation-pages">
+          <span class="prev">Prev</span>
+          <span class="page">1</span>
+          <span class="page">2</span>
+          <span class="page">3</span>
+          <span class="page">4</span>
+          <span class="page">5</span>
+          <span class="next">Next</span>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
