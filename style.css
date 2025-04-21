@@ -6,11 +6,13 @@
   right: 0;
   display: flex;
   align-items: center;
+  gap: 40px;
   padding: 0px 20px;
   font-family: "Poppins", sans-serif;
   border-bottom: #e5e5e5 solid 1px;
   position: fixed;
   background-color: white;
+  z-index: 1000; 
 }
 
 .header-left {
@@ -345,6 +347,8 @@
   content: "";
   position: absolute;
   bottom: 0;
+    left: 0;
+    right: 0;
   width: 100%;
   background-color: #4b3f72;
   display: block;
@@ -436,6 +440,7 @@ color: #939393;
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
+  color: #464E5F;
 }
 
 .overview-section thead {
@@ -506,10 +511,4 @@ margin-right: 15px;
 .page:hover {
   background-color: #4b3f72;
   color: #fff;
-}
-
-.boite {
-  width: 200px;
-  overflow-x: auto;
-  white-space: nowrap;
 }

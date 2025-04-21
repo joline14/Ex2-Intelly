@@ -1,0 +1,77 @@
+/* === Responsive === */
+@media (max-width: 1024px) {
+  
+  .container {
+    padding-top: 55px;
+  }
+  
+    .main {
+      width: 100%;
+      padding: 16px;
+      margin-top: 15px;
+      box-sizing: border-box;
+    }
+  
+    .header {
+      align-items: flex-start;
+      height: auto;
+      padding: 12px 20px;
+    }
+  
+.header-center{
+  width: 100%;
+}
+
+.header-right{
+  width: 277px;
+}
+
+    .search-bar {
+      width: 80%;
+    }
+  
+    .stat-cards {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .stat-card {
+      width: 100%;
+      box-sizing: border-box;
+
+    }
+  
+    .statistik-section {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .statistik-header {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    margin-bottom: 20px;
+    }
+  
+    .statistik-left, .statistik-right {
+      width: 100%;
+      border-right: none;
+    }
+  
+    .statistik-left{
+      align-items: center;
+    }
+    .graph-container {
+      overflow-x: auto;
+      padding: 0;
+    }
+  
+    .overview-section table {
+      min-width: 600px;
+    }
+  
+    .navigation-pages {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }

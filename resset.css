@@ -106,6 +106,7 @@ section {
   display: block;
 }
 body {
+  width: auto;
   background-color: #f6f8fa;
   font-family: "Poppins", sans-serif;
   margin: 0;
